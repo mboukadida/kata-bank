@@ -7,7 +7,6 @@ namespace Kata.Bank.Domain
         private Guid accountId;
         private double balance;
         private string currency;
-        private Guid guid;
 
         public static Account Empty()
         {
@@ -23,11 +22,12 @@ namespace Kata.Bank.Domain
             : this(accountId, balance)
         {
             if (string.IsNullOrEmpty(currency)) throw new ArgumentNullException();
+            this.currency = currency;
         }
 
         public Account(Guid guid, double balance)
         {
-            this.guid = guid;
+            this.accountId = guid;
             this.balance = balance;
         }
 
@@ -54,11 +54,6 @@ namespace Kata.Bank.Domain
         public double GetBalance()
         {
             return balance;
-        }
-
-        public override bool Equals(object obj)
-        {
-            return base.Equals(obj);
         }
     }
 }

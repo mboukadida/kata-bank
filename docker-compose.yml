@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  kata.bank.webapi:
-    image: kata.bank.webapi
-    build:
-      context: ./Kata.Bank.WebApi
-      dockerfile: Dockerfile

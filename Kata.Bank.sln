@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Bank.WebApi", "Kata.Bank.WebApi\Kata.Bank.WebApi.csproj", "{FF5CD3C2-F392-4E35-AF55-2A0BBC8FCD42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Bank.Domain", "Kata.Bank.Domain\Kata.Bank.Domain.csproj", "{54B62C96-23A5-4098-AEF6-06D8372CD803}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7E367A43-C038-4337-96C6-F1247351E565}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Bank.Domain", "Kata.Bank.Domain\Kata.Bank.Domain.csproj", "{54B62C96-23A5-4098-AEF6-06D8372CD803}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Bank.Domain.Tests", "Kata.Bank.Domain.Tests\Kata.Bank.Domain.Tests.csproj", "{DE20C762-EDEE-493B-9FD3-3C636D623529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF5CD3C2-F392-4E35-AF55-2A0BBC8FCD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF5CD3C2-F392-4E35-AF55-2A0BBC8FCD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF5CD3C2-F392-4E35-AF55-2A0BBC8FCD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF5CD3C2-F392-4E35-AF55-2A0BBC8FCD42}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7E367A43-C038-4337-96C6-F1247351E565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E367A43-C038-4337-96C6-F1247351E565}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E367A43-C038-4337-96C6-F1247351E565}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E367A43-C038-4337-96C6-F1247351E565}.Release|Any CPU.Build.0 = Release|Any CPU
 		{54B62C96-23A5-4098-AEF6-06D8372CD803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54B62C96-23A5-4098-AEF6-06D8372CD803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B62C96-23A5-4098-AEF6-06D8372CD803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B62C96-23A5-4098-AEF6-06D8372CD803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE20C762-EDEE-493B-9FD3-3C636D623529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE20C762-EDEE-493B-9FD3-3C636D623529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE20C762-EDEE-493B-9FD3-3C636D623529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE20C762-EDEE-493B-9FD3-3C636D623529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
